@@ -70,7 +70,7 @@ export default function App() {
       <div className="datas">
         <h2>Request send to DB with below data</h2>
         <ul>
-           {/* refer short cicuiting if you dont get && usage here */}
+          {/* refer short cicuiting if you dont get && usage here */}
           <li>Username: {showData && formData.usr}</li>
           <li>Name: {showData && formData.name}</li>
           <li>Age: {showData && formData.age}</li>
