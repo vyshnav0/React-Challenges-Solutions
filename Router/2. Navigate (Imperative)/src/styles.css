@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 25px;
+  font-weight: 800;
+}
+form {
+  width: 300px;
+  margin: 50px auto;
+}
+
+label {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 30px;
+  display: block;
+  margin: 20px 0;
+}
+
+input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button {
+  color: white;
+  background: rebeccapurple;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 1.5vw;
+  text-transform: uppercase;
+  display: table;
+  margin: 20px 0;
+  border: none;
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
